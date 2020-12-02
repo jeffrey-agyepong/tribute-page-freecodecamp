@@ -23,6 +23,11 @@ header {
   padding: 5px;
   margin: 15px;
 }
+#title {
+  padding: 20px;
+  background-color: #6a7aee;
+  border-radius: 25px;
+}
 #image {
   display: block;
   width: 100%;
@@ -35,6 +40,7 @@ header {
   padding-top: 20px;
   margin: 20px;
   background-color: #ccc2d3;
+  border-radius: 10px;
 }
 #img-caption,
 #tribute-info {
@@ -48,12 +54,16 @@ header {
   margin: 15px;
 }
 ul {
-  max-width: 650px;
+  max-width: 800px;
   margin: 0 auto 50px auto;
 }
 .list-items {
-  margin-left: 5.825rem;
-  margin-right: 5.825rem;
+  margin-left: 3.825rem;
+  margin-right: 3.825rem;
   text-align: left;
   line-height: 2.8125rem;
+}
+#footer {
+  background-color: #06259673;
+  width: 100%;
 }
